@@ -1,0 +1,1 @@
+Write a C program to implement a command called displaycontent that takes a (text) file name as argument and display its contents. Report an appropriate message if the file does not exist or can’t be opened (i.e. the file doesn’t have read permission). You are to use open(), read(), write() and close() system calls.
