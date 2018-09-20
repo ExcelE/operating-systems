@@ -13,7 +13,7 @@
 int main(int argc, char* argv[]){ 
     char* filepath = argv[1]; int returnval;
     // Check file existence 
-    returnval = access(filepath, F_OK); 
+    // CODE REDACTED
 
     if (returnval == 0) printf ("\n%s exists\n", filepath); 
     else { 
@@ -26,7 +26,7 @@ int main(int argc, char* argv[]){
         }
     }
     // Check read access ...
-    returnval = access(filepath, R_OK); 
+    // CODE REDACTED 
 
     if (returnval == 0) printf ("\n%s readable.\n", filepath); 
     else { 
@@ -35,8 +35,8 @@ int main(int argc, char* argv[]){
         return 0;
     }
 
-    // Check write access ...
-    returnval = access(filepath, W_OK); 
+    // Check write access ...    
+    // CODE REDACTED
 
     if (returnval == 0) printf ("\n%s in writeable.\n", filepath); 
     else { 
